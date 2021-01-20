@@ -1,0 +1,199 @@
+
+ button:focus{
+     outline: none;
+}
+ button{
+     border: none;
+}
+ body{
+     background: #dbdbdb;
+}
+ *, *:before, *:after {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+ .container {
+     align-items: flex-start;
+     padding-top: 100px;
+     width: 900px;
+     display: flex;
+     justify-content: space-between;
+     margin: 0 auto;
+}
+ .right {
+     width: 35%;
+     background-color: white;
+     border-radius: 5px;
+     box-shadow: 0 0 1vw .2vw rgba(0, 0, 0, .1);
+}
+ .left {
+     width: 60%;
+     background-color: white;
+     border-radius: 5px;
+     box-shadow: 0 0 1vw .2vw rgba(0, 0, 0, .1);
+}
+
+ .bl-text{
+     height: 40px;
+     margin: 0px;
+     width: 70%;
+     padding: 10px;
+     font-size: 1rem;
+     color: gray;
+     border:1px solid #cfdcec;
+     border-right: 0;
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+}
+ .bl-text:focus{
+     outline: none;
+     border:1px solid cornflowerblue;
+     border-right: 0;
+}
+
+ .bl-little{
+     height: 35px;
+     padding: 5px 5px 0 5px;
+     display: inline-block;
+     font-size: 12px;
+     margin-right: 3px;
+     margin-bottom: 3px;
+     background-color: #E8E8E8;
+     border: 0;
+     border-radius: 5px;
+     font-family: 'Lato','Helvetica Neue','Arial','Helvetica','sans-serif';
+}
+ .bl-title{
+     border-bottom: 1px solid #e1e1e2;
+     padding: 10px 10px 10px 10px;
+     font-size: 20px;
+     font-weight: 700;
+     font-family: 'Lato','Helvetica Neue','Arial','Helvetica','sans-serif';
+}
+ .bl-product{
+     width: 100%;
+     font-family: 'Lato','Helvetica Neue','Arial','Helvetica','sans-serif';
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 2% 0 2%;
+     border-top: 1px solid #e1e1e2;
+}
+ .bl-name{
+     width: 30%;
+}
+ .bl-insidenumb{
+     margin: 0;
+     padding: 0;
+     display: inline-block;
+     width: 25px;
+     height: 25px;
+     font-size: 12px;
+     color: white;
+     background-color: #F2711C;
+     border-radius: 50%;
+     text-align: center;
+     line-height: 25px;
+}
+ .bl-plus-minus{
+     width: 24%;
+     display: inline-flex;
+     justify-content: space-between;
+     align-items: center;
+}
+ .bought-delete{
+     display: inline-flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 30%;
+}
+ .bl-text-add{
+     display: inline-flex;
+     width: 100%;
+     align-items: center;
+     padding: 2% 2% 0 2%;
+     margin-bottom: 10px;
+}
+.bl-left-little{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px solid #e1e1e2;
+}
+
+.bl-little-name{
+    display: inline-block;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+/*Кнопки*/
+ .bl-label {
+     background-color: #E8E8E8;
+     padding-left: 9px;
+     padding-right: 9px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border:1px solid #cfdcec;
+     border-radius: 7px;
+     width: 25%;
+     text-align: center;
+}
+ .bl-plus {
+          font-weight: 800;
+     height: 40px;
+     width: 40px;
+     color: white;
+     background-color: #1bbb43;
+     box-shadow: 0 -0.3em 0 0 rgba(34,36,38,.15) inset;
+     padding: 5px;
+     border-radius: 50%;
+}
+ .bl-minus {
+     font-weight: 800;
+     height: 40px;
+     width: 40px;
+     color: white;
+     background-color: #DB2828;
+     box-shadow: 0 -0.3em 0 0 rgba(34,36,38,.15) inset;
+     padding: 5px;
+     border-radius: 50%;
+}
+ .bl-add{
+     font-family: 'Lato','Helvetica Neue','Arial','Helvetica','sans-serif';
+     font-weight: 700;
+     width: 30%;
+     height: 40px;
+     margin: 0px;
+     background: #2185D0;
+     color: white;
+     font-size: 1rem;
+     border-bottom-right-radius: 5px;
+     border-top-right-radius: 5px;
+     box-shadow: 0 -0.3em 0 0 rgba(34,36,38,.15) inset;
+}
+ .bl-buttons{
+     margin-left: 50px;
+     background-color: white;
+}
+ .bl-boughtbutt{
+     padding: 9px;
+     background: linear-gradient(transparent,rgba(0,0,0,.05)) #F8F8F8 box-shadow: 0 0 0 1px rgba(34,36,38,.15) inset, 0 -0.3em 0 0 rgba(34,36,38,.15) inset;
+     border-radius: .4em;
+     margin: 0 0 0 25%;
+     border:1px solid #cfdcec;
+     box-shadow: 0 -0.3em 0 0 rgba(34,36,38,.15) inset;
+     width: 50%;
+}
+ .bl-delete{
+     background-color: #DB2828;
+     padding: 9px;
+     color: white;
+     border-radius: 7px;
+     box-shadow: 0 -0.3em 0 0 rgba(34,36,38,.15) inset;
+     width: 21%;
+}
+ 
